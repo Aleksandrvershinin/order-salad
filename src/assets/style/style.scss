@@ -1,0 +1,36 @@
+#root {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.create-salad {
+    display: flex;
+}
+
+.create-salad__title {
+    text-align: center;
+}
+
+.create-salad__salad {
+    margin-left: 200px;
+}
+
+.create-salad__molecule_list:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.create-salad__molecule_btn {
+    margin-top: 5px;
+}
+
+.order-salad__molecule {
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 0px 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
